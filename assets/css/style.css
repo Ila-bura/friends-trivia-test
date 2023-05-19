@@ -1,11 +1,53 @@
 
 
+body {
+    background: #A0E7E5;
+}
+.container {
+width: 80%;
+max-width: 500px;
+margin: 100px auto 0;
+border-radius: 10px;
+padding: 20px;
+background-color: white;
 
-h1 {
-    font-family: 'Darumadrop One', cursive;
 }
 
-h2 {
+h1 {
     font-family: 'Permanent Marker', cursive;
+    font-size: 36px;
+    text-align: center;
+    color: #FFAEBC;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+    
+.quiz {
+padding: 10px 0;
+    }
 
+    h2 {
+    font-family: 'Darumadrop One', cursive;
+    font-size: 28px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.btn {
+    background: white;
+    font-weight: 500;
+    width: 100%;
+    border: 1px solid;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: center;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s;
+
+}
+
+.btn:hover {
+background: #A0E7E5;
+color: white;
 }
