@@ -31,7 +31,19 @@ let allQuestions = {
    'What are the names of Monica and Ross\' parents?' :
    ['Judy and Jack', 'Rose and Ronnie', 'Pam and Pete'],
 }
+// Variable for the question
+let questionItem = document.GetElementById("question");
 
+// Variable for the answer
+let answerButton = document.GetElementById("answer-buttons");
+
+// Variable for the next button
+let nextButton = document.GetElementById("btn-next");
+
+
+// Variable to store the score index an initial score
+let currentQuestionIndex = 0;
+let score = 0;
 
 // Function to start the quiz
 
