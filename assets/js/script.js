@@ -2,92 +2,92 @@
 
 let allQuestions = [
 {
-    question: 'How many sisters does Joey have?' :
+    question: 'How many sisters does Joey have?',
     answers: [
-        {'7', true},
-        {'6', false},
-         {'5', false},
+        {text: 'seven', correct: true},
+        {text:'six', correct: false},
+         {text:'five', correct: false},
         ]
     },
 
     {
-    question: 'What dessert did Rachel try to make for Thanksgiving?' :
+    question: 'What dessert did Rachel try to make for Thanksgiving?',
     answers: [
-        {'Toffee', false},
-        {'Truffle', false},
-         {'Trifle', true},
+        {text:'Toffee', correct: false},
+        {text:'Truffle', correct: false},
+         {text:'Trifle', correct: true},
         ]
     },
 
     {
-    question: 'What is the title of Phoebe\'s most popular song?' :
+    question: 'What is the title of Phoebe\'s most popular song?',
     answers: [
-        {'Stinky Cat', false},
-        {'Smelly Cat', true},
-         {'Silly Cat', false},
+        {text:'Stinky Cat', correct: false},
+        {text:'Smelly Cat', correct: true},
+         {text:'Silly Cat', correct: false},
         ]
     },
 
     {
-    question: 'What is a lobster?' :
+    question: 'What is a lobster?',
     answers: [
-        {'Your gym buddy', false},
-        {'Your favourite roommate', false},
-         {'The person you are meant to be with', true},
+        {text:'Your gym buddy', correct: false},
+        {text:'Your favourite roommate', correct: false},
+         {text:'The person you are meant to be with', correct: true},
         ]
     },
 
     {
-    question: 'What is the name of Ross\'s monkey?' :
+    question: 'What is the name of Ross\'s monkey?',
     answers: [
-        {'Marcel', true},
-        {'Miguel', false},
-         {'Manuel', false},
+        {text:'Marcel', correct: true},
+        {text:'Miguel', correct: false},
+         {text:'Manuel', correct: false},
         ]
     },
 
     {
-    question: 'What job does Chandler\'s dad do in Vegas?' :
+    question: 'What job does Chandler\'s dad do in Vegas?',
     answers: [
-        {'A croupier', false},
-        {'A drag queen', true},
-         {'Elvis impersonator', false},
+        {text:'A croupier', correct: false},
+        {text:'A drag queen', correct: true},
+         {text:'Elvis impersonator', correct: false},
         ]
     },
 
     {
-    question: 'What did Phoebe legally change her name to?' :
+    question: 'What did Phoebe legally change her name to?',
     answers: [
-        {'Princess Consuela Banana Hammock', true},
-        {'Regina Phalange', false},
-         {'Ursula Muriel', false},
+        {text:'Princess Consuela Banana Hammock', correct: true},
+        {text:'Regina Phalange', correct: false},
+         {text:'Ursula Muriel', correct: false},
         ]
     },
 
 {
-    question: 'Which of these celebrities did not make a cameo in the series?' :
+    question: 'Which of these celebrities did not make a cameo in the series?',
     answers: [
-        {'Robin Williams', false},
-        {'Isabella Rossellini', false},
-         {'Cher', true},
+        {text:'Robin Williams', correct: false},
+        {text:'Isabella Rossellini', correct: false},
+         {text:'Cher', correct: true},
         ]
     },
 
      {
-    question: 'What Japanese product does Joey do a commercial for?' :
+    question: 'What Japanese product does Joey do a commercial for?',
     answers: [
-        {'A lipstick for men', true},
-        {'A handbag for men', false},
-         {'A shower cap for men', false},
+        {text:'A lipstick for men', correct: true},
+        {text:'A handbag for men', correct: false},
+         {text:'A shower cap for men', correct: false},
         ]
     },
 
  {
-    question: 'What are the names of Monica and Ross\' parents?' :
+    question: 'What are the names of Monica and Ross\' parents?',
     answers: [
-        {'Pam and Pete', false},
-        {'Judy and Jack', true},
-         {'Rose and Ronnie', false},
+        {text:'Pam and Pete', correct: false},
+        {text:'Judy and Jack', correct: true},
+         {text:'Rose and Ronnie', correct: false},
         ]
     },
 
