@@ -1,46 +1,52 @@
-
+/* --------- Global style */
 
 body {
     background: #A0E7E5;
+    font-family: 'Darumadrop One', cursive;
+    text-align: center;
 }
-.container {
+
+/* --------- Main heading */
+
+.game-title {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 50px;
+    
+    color: #FFAEBC;
+    font-weight: 600;
+    padding-top: 50px;
+    
+    
+}
+
+/* --------- Quiz area layout */
+
+.quiz-area {
 width: 80%;
 max-width: 500px;
-margin: 100px auto 0;
-border-radius: 10px;
+margin: 60px auto 0;
+border-radius: 20px;
 padding: 20px;
 background-color: white;
 
 }
-
-h1 {
-    font-family: 'Permanent Marker', cursive;
-    font-size: 36px;
-    text-align: center;
-    color: #FFAEBC;
-    font-weight: 600;
-    padding-bottom: 20px;
-}
     
-.quiz {
-padding: 10px 0;
-    }
-
     h2 {
     font-family: 'Darumadrop One', cursive;
     font-size: 28px;
-    font-weight: 400;
-    text-align: center;
+    font-weight: 600;
 }
+
+/* --------- Buttons */
 
 .btn {
     background: white;
+    font-size: 18px;
     font-weight: 500;
     width: 100%;
     border: 1px solid;
     padding: 10px;
     margin: 10px 0;
-    text-align: center;
     border-radius: 4px;
     cursor: pointer;
     transition: all 0.3s;
@@ -51,7 +57,6 @@ padding: 10px 0;
 background: #A0E7E5;
 color: white;
 }
-
 
 .btn-next {
 background: #FFAEBC;
@@ -64,5 +69,5 @@ margin: 20px auto 0;
 border-radius: 4px;
 cursor: pointer;
 display: block;
-    
+  
 }
