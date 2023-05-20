@@ -1,36 +1,98 @@
-// Array with quiz questions
+// Array with quiz questions and possible options
 
-let allQuestions = {
-    'How many sisters does Joey have?' :
-    ['7', '6', '5'],
+let allQuestions = [
+{
+    question: 'How many sisters does Joey have?' :
+    answers: [
+        {'7', true},
+        {'6', false},
+         {'5', false},
+        ]
+    },
 
-    'What dessert did Rachel try to make for Thanksgiving?' :
-    ['Toffee', 'Truffle', 'Trifle'],
+    {
+    question: 'What dessert did Rachel try to make for Thanksgiving?' :
+    answers: [
+        {'Toffee', false},
+        {'Truffle', false},
+         {'Trifle', true},
+        ]
+    },
 
-    'What is the title of Phoebe\'s most popular song?' :
-    ['Stinky Cat', 'Smelly Cat', 'Silly Cat'],
+    {
+    question: 'What is the title of Phoebe\'s most popular song?' :
+    answers: [
+        {'Stinky Cat', false},
+        {'Smelly Cat', true},
+         {'Silly Cat', false},
+        ]
+    },
 
-    'What is a lobster?' :
-    ['Your gym buddy', 'Your favourite roommate', 'The person you are meant to be with'],
+    {
+    question: 'What is a lobster?' :
+    answers: [
+        {'Your gym buddy', false},
+        {'Your favourite roommate', false},
+         {'The person you are meant to be with', true},
+        ]
+    },
 
-    'What is the name of Ross\'s monkey?' :
-    ['Marcel', 'Miguel', 'Manuel'],
+    {
+    question: 'What is the name of Ross\'s monkey?' :
+    answers: [
+        {'Marcel', true},
+        {'Miguel', false},
+         {'Manuel', false},
+        ]
+    },
 
-    'What job does Chandler\'s dad do in Vegas?' :
-    ['A croupier', 'Elvis impersonator', 'A drag queen'],
+    {
+    question: 'What job does Chandler\'s dad do in Vegas?' :
+    answers: [
+        {'A croupier', false},
+        {'A drag queen', true},
+         {'Elvis impersonator', false},
+        ]
+    },
 
-    'What did Phoebe legally change her name to?' :
-    ['Regina Phalange', 'Princess Consuela Banana Hammock', 'Ursula Muriel'],
+    {
+    question: 'What did Phoebe legally change her name to?' :
+    answers: [
+        {'Princess Consuela Banana Hammock', true},
+        {'Regina Phalange', false},
+         {'Ursula Muriel', false},
+        ]
+    },
 
-    'Which of these celebrities did not make a cameo in the series?' :
-    ['Robin Williams', 'Isabella Rossellini', 'Cher'],
+{
+    question: 'Which of these celebrities did not make a cameo in the series?' :
+    answers: [
+        {'Robin Williams', false},
+        {'Isabella Rossellini', false},
+         {'Cher', true},
+        ]
+    },
 
-    'What Japanese product does Joey do a commercial for?' :
-    ['A shower cap for men', 'A lipstick for men', 'A handbag for men'],
+     {
+    question: 'What Japanese product does Joey do a commercial for?' :
+    answers: [
+        {'A lipstick for men', true},
+        {'A handbag for men', false},
+         {'A shower cap for men', false},
+        ]
+    },
 
-   'What are the names of Monica and Ross\' parents?' :
-   ['Judy and Jack', 'Rose and Ronnie', 'Pam and Pete'],
-}
+ {
+    question: 'What are the names of Monica and Ross\' parents?' :
+    answers: [
+        {'Pam and Pete', false},
+        {'Judy and Jack', true},
+         {'Rose and Ronnie', false},
+        ]
+    },
+
+]
+
 // Variable for the question
 let questionItem = document.GetElementById("question");
 
@@ -39,7 +101,6 @@ let answerButton = document.GetElementById("answer-buttons");
 
 // Variable for the next button
 let nextButton = document.GetElementById("btn-next");
-
 
 // Variable to store the score index an initial score
 let currentQuestionIndex = 0;
