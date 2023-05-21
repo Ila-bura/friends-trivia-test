@@ -1,10 +1,15 @@
 /* --------- Global style */
 
 body {
-    background: #A0E7E5;
     font-family: 'Darumadrop One', cursive;
     text-align: center;
+    width: 100vw;
+  height: 100vh;
+  background: url("../images/new-york.jpg");
+  background-size: cover;
 }
+
+
 
 /* --------- Main heading */
 

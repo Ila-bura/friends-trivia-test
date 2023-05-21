@@ -115,7 +115,9 @@ function startQuiz() {
 }
 
 // Function to display the questions
-
+function displayQuestion() {
+    let currentQuestion = question[currentQuestionIndex];
+}
 
 // Function to check if answer is correct 
 
