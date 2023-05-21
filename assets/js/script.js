@@ -1,4 +1,4 @@
-// Array with quiz questions and possible options
+// Array with ten sets of questions with their corresponding possible options
 
 let allQuestions = [
 {
@@ -106,8 +106,13 @@ let nextButton = document.GetElementById("btn-next");
 let currentQuestionIndex = 0;
 let score = 0;
 
-// Function to start the quiz
-
+// Function to start the quiz with question index and initial score set to 0
+function startQuiz() {
+    currentQuestionIndex = 0;
+    score = 0;
+    nextButton.innerHTML = "Next one";
+    showQuestion();
+}
 
 // Function to display the questions
 
