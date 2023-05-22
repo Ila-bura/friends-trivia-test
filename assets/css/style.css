@@ -5,6 +5,7 @@ body {
     text-align: center;
     width: 100vw;
   height: 100vh;
+  justify-content: center;
   background: url("../images/new-york.jpg");
   background-size: cover;
 }
@@ -16,8 +17,7 @@ body {
 .game-title {
     font-family: 'Permanent Marker', cursive;
     font-size: 50px;
-    
-    color: #FFAEBC;
+    color: #F3C5DF;
     font-weight: 600;
     padding-top: 50px;
     
@@ -45,7 +45,7 @@ background-color: white;
 /* --------- Buttons */
 
 .btn {
-    background: white;
+    background: #AEC8ED;
     font-size: 18px;
     font-weight: 500;
     width: 100%;
@@ -55,16 +55,16 @@ background-color: white;
     border-radius: 4px;
     cursor: pointer;
     transition: all 0.3s;
-
 }
 
 .btn:hover {
-background: #A0E7E5;
-color: white;
+background: #FFFF;
+color: #AEC8ED;
+box-shadow: 0 0.4rem 1.4rem 0 rgba(86, 185, 235, 0.5);
 }
 
 .btn-next {
-background: #FFAEBC;
+background: #F3C5DF;
 color: white;
 font-weight: 500;
 width: 150px;
@@ -75,4 +75,8 @@ border-radius: 4px;
 cursor: pointer;
 display: block;
   
+}
+
+.btn-next:hover {
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(86, 185, 235, 0.5);
 }
