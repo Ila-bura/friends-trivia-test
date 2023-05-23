@@ -107,7 +107,7 @@ let currentQuestionIndex = 0;
 let score = 0;
 
 // Function to start the quiz with question index and initial score set to 0
-function startQuiz() {
+function beginQuiz() {
     currentQuestionIndex = 0;
     score = 0;
     nextButton.innerHTML = "Next one";
@@ -121,7 +121,7 @@ function displayQuestion() {
 
 // Function to check if answer is correct 
 
-// Function to clear the area
+// Function to clear the quiz area
 
 // Function to display the final score
 

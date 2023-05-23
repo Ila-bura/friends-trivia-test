@@ -1,13 +1,13 @@
 /* --------- Global style */
 
-body {
+.container {
     font-family: 'Darumadrop One', cursive;
     text-align: center;
     width: 100vw;
   height: 100vh;
-  justify-content: center;
   background: url("../images/new-york.jpg");
   background-size: cover;
+  
 }
 
 
@@ -16,7 +16,7 @@ body {
 
 .game-title {
     font-family: 'Permanent Marker', cursive;
-    font-size: 50px;
+    font-size: 60px;
     color: #F3C5DF;
     font-weight: 600;
     padding-top: 50px;
@@ -38,7 +38,7 @@ background-color: white;
     
     h2 {
     font-family: 'Darumadrop One', cursive;
-    font-size: 28px;
+    font-size: 30px;
     font-weight: 600;
 }
 
